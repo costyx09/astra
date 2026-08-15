@@ -1,0 +1,822 @@
+GIORNATA 1 — 23/08/2026
+
+      Atalanta vs Sassuolo
+
+      Bologna vs Lazio
+
+      Frosinone vs Juventus
+
+      Genoa vs Napoli
+
+      Inter vs Monza
+
+      Parma vs Cagliari
+
+      Roma vs Fioren na
+
+      Torino vs Milan
+
+      Udinese vs Como
+
+      Venezia vs Lecce
+
+GIORNATA 2 — 30/08/2026
+
+      Atalanta vs Bologna
+
+      Cagliari vs Inter
+
+      Fioren na vs Frosinone
+
+      Juventus vs Parma
+
+      Lazio vs Genoa
+
+      Lecce vs Roma
+
+      Milan vs Venezia
+
+      Monza vs Udinese
+
+      Napoli vs Como
+
+      Sassuolo vs Torino
+
+GIORNATA 3 — 06/09/2026
+
+      Bologna vs Sassuolo
+
+      Cagliari vs Lecce
+
+      Fioren na vs Torino
+
+      Frosinone vs Venezia
+
+      Genoa vs Como
+
+      Inter vs Napoli
+      Juventus vs Milan
+
+      Parma vs Monza
+
+      Roma vs Atalanta
+
+      Udinese vs Lazio
+
+GIORNATA 4 — 13/09/2026
+
+      Atalanta vs Cagliari
+
+      Como vs Parma
+
+      Genoa vs Frosinone
+
+      Inter vs Udinese
+
+      Lazio vs Milan
+
+      Lecce vs Monza
+
+      Napoli vs Bologna
+
+      Sassuolo vs Juventus
+
+      Torino vs Roma
+
+      Venezia vs Fioren na
+
+GIORNATA 5 — 20/09/2026
+
+      Bologna vs Torino
+
+      Fioren na vs Napoli
+
+      Frosinone vs Como
+
+      Juventus vs Atalanta
+
+      Milan vs Lecce
+
+      Monza vs Sassuolo
+
+      Parma vs Genoa
+
+      Roma vs Inter
+
+      Udinese vs Cagliari
+
+      Venezia vs Lazio
+
+GIORNATA 6 — 11/10/2026
+
+      Atalanta vs Venezia
+
+      Cagliari vs Juventus
+      Como vs Roma
+
+      Genoa vs Fioren na
+
+      Inter vs Parma
+
+      Lazio vs Monza
+
+      Lecce vs Bologna
+
+      Napoli vs Frosinone
+
+      Sassuolo vs Milan
+
+      Torino vs Udinese
+
+GIORNATA 7 — 18/10/2026
+
+      Bologna vs Inter
+
+      Fioren na vs Como
+
+      Frosinone vs Sassuolo
+
+      Juventus vs Lazio
+
+      Milan vs Atalanta
+
+      Monza vs Cagliari
+
+      Parma vs Torino
+
+      Roma vs Genoa
+
+      Udinese vs Lecce
+
+      Venezia vs Napoli
+
+GIORNATA 8 — 25/10/2026
+
+      Atalanta vs Frosinone
+
+      Cagliari vs Bologna
+
+      Como vs Sassuolo
+
+      Genoa vs Venezia
+
+      Inter vs Fioren na
+
+      Lazio vs Parma
+
+      Lecce vs Juventus
+
+      Napoli vs Roma
+
+      Torino vs Monza
+      Udinese vs Milan
+
+GIORNATA 9 — 28/10/2026
+
+      Fioren na vs Atalanta
+
+      Frosinone vs Lecce
+
+      Genoa vs Juventus
+
+      Milan vs Bologna
+
+      Monza vs Napoli
+
+      Parma vs Udinese
+
+      Roma vs Cagliari
+
+      Sassuolo vs Lazio
+
+      Torino vs Como
+
+      Venezia vs Inter
+
+GIORNATA 10 — 01/11/2026
+
+      Atalanta vs Parma
+
+      Bologna vs Monza
+
+      Como vs Venezia
+
+      Frosinone vs Torino
+
+      Juventus vs Napoli
+
+      Lazio vs Cagliari
+
+      Lecce vs Genoa
+
+      Milan vs Inter
+
+      Sassuolo vs Fioren na
+
+      Udinese vs Roma
+
+GIORNATA 11 — 08/11/2026
+
+      Cagliari vs Frosinone
+
+      Fioren na vs Juventus
+
+      Genoa vs Milan
+
+      Inter vs Como
+
+      Monza vs Atalanta
+      Napoli vs Lazio
+
+      Parma vs Bologna
+
+      Roma vs Sassuolo
+
+      Torino vs Lecce
+
+      Venezia vs Udinese
+
+GIORNATA 12 — 22/11/2026
+
+      Atalanta vs Inter
+
+      Bologna vs Udinese
+
+      Como vs Cagliari
+
+      Juventus vs Venezia
+
+      Lazio vs Lecce
+
+      Milan vs Frosinone
+
+      Monza vs Fioren na
+
+      Napoli vs Torino
+
+      Parma vs Roma
+
+      Sassuolo vs Genoa
+
+GIORNATA 13 — 29/11/2026
+
+      Cagliari vs Milan
+
+      Como vs Juventus
+
+      Frosinone vs Parma
+
+      Inter vs Genoa
+
+      Lecce vs Atalanta
+
+      Roma vs Monza
+
+      Sassuolo vs Napoli
+
+      Torino vs Lazio
+
+      Udinese vs Fioren na
+
+      Venezia vs Bologna
+
+GIORNATA 14 — 06/12/2026
+
+      Bologna vs Roma
+      Fioren na vs Cagliari
+
+      Frosinone vs Inter
+
+      Genoa vs Torino
+
+      Juventus vs Udinese
+
+      Lazio vs Atalanta
+
+      Milan vs Parma
+
+      Monza vs Como
+
+      Napoli vs Lecce
+
+      Venezia vs Sassuolo
+
+GIORNATA 15 — 13/12/2026
+
+      Atalanta vs Genoa
+
+      Cagliari vs Venezia
+
+      Como vs Bologna
+
+      Inter vs Torino
+
+      Juventus vs Monza
+
+      Lazio vs Roma
+
+      Lecce vs Sassuolo
+
+      Napoli vs Milan
+
+      Parma vs Fioren na
+
+      Udinese vs Frosinone
+
+GIORNATA 16 — 20/12/2026
+
+      Atalanta vs Napoli
+
+      Fioren na vs Bologna
+
+      Frosinone vs Lazio
+
+      Genoa vs Udinese
+
+      Lecce vs Inter
+
+      Milan vs Como
+
+      Roma vs Juventus
+
+      Sassuolo vs Parma
+      Torino vs Cagliari
+
+      Venezia vs Monza
+
+GIORNATA 17 — 03/01/2027
+
+      Bologna vs Juventus
+
+      Cagliari vs Genoa
+
+      Como vs Lecce
+
+      Fioren na vs Lazio
+
+      Inter vs Sassuolo
+
+      Monza vs Milan
+
+      Parma vs Napoli
+
+      Roma vs Frosinone
+
+      Torino vs Venezia
+
+      Udinese vs Atalanta
+
+GIORNATA 18 — 06/01/2027
+
+      Atalanta vs Como
+
+      Frosinone vs Bologna
+
+      Genoa vs Monza
+
+      Juventus vs Torino
+
+      Lazio vs Inter
+
+      Lecce vs Parma
+
+      Milan vs Fioren na
+
+      Napoli vs Cagliari
+
+      Sassuolo vs Udinese
+
+      Venezia vs Roma
+
+GIORNATA 19 — 10/01/2027
+
+      Bologna vs Genoa
+
+      Cagliari vs Sassuolo
+
+      Como vs Lazio
+
+      Fioren na vs Lecce
+      Inter vs Juventus
+
+      Monza vs Frosinone
+
+      Parma vs Venezia
+
+      Roma vs Milan
+
+      Torino vs Atalanta
+
+      Udinese vs Napoli
+
+GIORNATA 20 — 17/01/2027
+
+      Atalanta vs Roma
+
+      Cagliari vs Como
+
+      Juventus vs Genoa
+
+      Lazio vs Bologna
+
+      Lecce vs Udinese
+
+      Milan vs Torino
+
+      Napoli vs Fioren na
+
+      Parma vs Inter
+
+      Sassuolo vs Monza
+
+      Venezia vs Frosinone
+
+GIORNATA 21 — 24/01/2027
+
+      Bologna vs Atalanta
+
+      Como vs Napoli
+
+      Fioren na vs Sassuolo
+
+      Frosinone vs Milan
+
+      Genoa vs Parma
+
+      Inter vs Venezia
+
+      Juventus vs Cagliari
+
+      Lecce vs Torino
+
+      Monza vs Lazio
+
+      Roma vs Udinese
+
+GIORNATA 22 — 31/01/2027
+      Atalanta vs Fioren na
+
+      Cagliari vs Parma
+
+      Genoa vs Lecce
+
+      Lazio vs Venezia
+
+      Milan vs Juventus
+
+      Monza vs Roma
+
+      Napoli vs Inter
+
+      Sassuolo vs Como
+
+      Torino vs Frosinone
+
+      Udinese vs Bologna
+
+GIORNATA 23 — 07/02/2027
+
+      Atalanta vs Lazio
+
+      Bologna vs Milan
+
+      Como vs Monza
+
+      Fioren na vs Udinese
+
+      Inter vs Cagliari
+
+      Juventus vs Sassuolo
+
+      Lecce vs Napoli
+
+      Parma vs Frosinone
+
+      Roma vs Torino
+
+      Venezia vs Genoa
+
+GIORNATA 24 — 14/02/2027
+
+      Bologna vs Como
+
+      Cagliari vs Lazio
+
+      Frosinone vs Fioren na
+
+      Genoa vs Atalanta
+
+      Inter vs Milan
+
+      Monza vs Lecce
+
+      Napoli vs Juventus
+      Roma vs Parma
+
+      Torino vs Sassuolo
+
+      Udinese vs Venezia
+
+GIORNATA 25 — 21/02/2027
+
+      Atalanta vs Monza
+
+      Como vs Torino
+
+      Fioren na vs Inter
+
+      Juventus vs Bologna
+
+      Lazio vs Napoli
+
+      Lecce vs Frosinone
+
+      Milan vs Genoa
+
+      Sassuolo vs Roma
+
+      Udinese vs Parma
+
+      Venezia vs Cagliari
+
+GIORNATA 26 — 28/02/2027
+
+      Bologna vs Lecce
+
+      Cagliari vs Udinese
+
+      Como vs Milan
+
+      Frosinone vs Napoli
+
+      Genoa vs Lazio
+
+      Inter vs Atalanta
+
+      Monza vs Juventus
+
+      Parma vs Sassuolo
+
+      Roma vs Venezia
+
+      Torino vs Fioren na
+
+GIORNATA 27 — 07/03/2027
+
+      Atalanta vs Torino
+
+      Fioren na vs Venezia
+
+      Juventus vs Roma
+      Lazio vs Frosinone
+
+      Lecce vs Como
+
+      Milan vs Cagliari
+
+      Monza vs Genoa
+
+      Napoli vs Parma
+
+      Sassuolo vs Bologna
+
+      Udinese vs Inter
+
+GIORNATA 28 — 14/03/2027
+
+      Bologna vs Napoli
+
+      Cagliari vs Fioren na
+
+      Como vs Udinese
+
+      Frosinone vs Monza
+
+      Genoa vs Roma
+
+      Lazio vs Juventus
+
+      Milan vs Sassuolo
+
+      Parma vs Lecce
+
+      Torino vs Inter
+
+      Venezia vs Atalanta
+
+GIORNATA 29 — 21/03/2027
+
+      Atalanta vs Milan
+
+      Fioren na vs Genoa
+
+      Inter vs Frosinone
+
+      Juventus vs Como
+
+      Monza vs Bologna
+
+      Napoli vs Venezia
+
+      Parma vs Lazio
+
+      Roma vs Lecce
+
+      Sassuolo vs Cagliari
+
+      Udinese vs Torino
+GIORNATA 30 — 04/04/2027
+
+      Cagliari vs Napoli
+
+      Como vs Fioren na
+
+      Frosinone vs Udinese
+
+      Genoa vs Inter
+
+      Lecce vs Lazio
+
+      Milan vs Monza
+
+      Roma vs Bologna
+
+      Sassuolo vs Atalanta
+
+      Torino vs Juventus
+
+      Venezia vs Parma
+
+GIORNATA 31 — 11/04/2027
+
+      Bologna vs Venezia
+
+      Cagliari vs Atalanta
+
+      Fioren na vs Milan
+
+      Frosinone vs Genoa
+
+      Inter vs Roma
+
+      Juventus vs Lecce
+
+      Lazio vs Torino
+
+      Napoli vs Sassuolo
+
+      Parma vs Como
+
+      Udinese vs Monza
+
+GIORNATA 32 — 18/04/2027
+
+      Atalanta vs Udinese
+
+      Bologna vs Cagliari
+
+      Como vs Frosinone
+
+      Fioren na vs Parma
+
+      Milan vs Napoli
+
+      Monza vs Inter
+      Roma vs Lazio
+
+      Sassuolo vs Lecce
+
+      Torino vs Genoa
+
+      Venezia vs Juventus
+
+GIORNATA 33 — 25/04/2027
+
+      Cagliari vs Monza
+
+      Frosinone vs Roma
+
+      Genoa vs Sassuolo
+
+      Inter vs Bologna
+
+      Juventus vs Fioren na
+
+      Lazio vs Como
+
+      Lecce vs Milan
+
+      Napoli vs Udinese
+
+      Parma vs Atalanta
+
+      Venezia vs Torino
+
+GIORNATA 34 — 02/05/2027
+
+      Atalanta vs Juventus
+
+      Bologna vs Fioren na
+
+      Como vs Inter
+
+      Lecce vs Cagliari
+
+      Milan vs Lazio
+
+      Monza vs Venezia
+
+      Roma vs Napoli
+
+      Sassuolo vs Frosinone
+
+      Torino vs Parma
+
+      Udinese vs Genoa
+
+GIORNATA 35 — 09/05/2027
+
+      Fioren na vs Roma
+
+      Frosinone vs Atalanta
+      Genoa vs Cagliari
+
+      Inter vs Lecce
+
+      Lazio vs Sassuolo
+
+      Napoli vs Monza
+
+      Parma vs Milan
+
+      Torino vs Bologna
+
+      Udinese vs Juventus
+
+      Venezia vs Como
+
+GIORNATA 36 — 16/05/2027
+
+      Bologna vs Frosinone
+
+      Cagliari vs Torino
+
+      Como vs Atalanta
+
+      Juventus vs Inter
+
+      Lazio vs Udinese
+
+      Lecce vs Fioren na
+
+      Milan vs Roma
+
+      Monza vs Parma
+
+      Napoli vs Genoa
+
+      Sassuolo vs Venezia
+
+GIORNATA 37 — 23/05/2027
+
+      Atalanta vs Lecce
+
+      Fioren na vs Monza
+
+      Frosinone vs Cagliari
+
+      Genoa vs Bologna
+
+      Inter vs Lazio
+
+      Parma vs Juventus
+
+      Roma vs Como
+
+      Torino vs Napoli
+
+      Udinese vs Sassuolo
+      Venezia vs Milan
+
+GIORNATA 38 — 30/05/2027
+
+      Bologna vs Parma
+
+      Cagliari vs Roma
+
+      Como vs Genoa
+
+      Juventus vs Frosinone
+
+      Lazio vs Fioren na
+
+      Lecce vs Venezia
+
+      Milan vs Udinese
+
+      Monza vs Torino
+
+      Napoli vs Atalanta
+
+      Sassuolo vs Inter
+

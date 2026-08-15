@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+/*
+ * Sistema di design Astra v2 — estetica "analytics/trading terminal":
+ * superficie scura, profondità tramite elevazione (non decorazione),
+ * colore sempre semantico, mai decorativo.
+ *
+ * Significato del colore (unica logica in tutta l'app, non derogabile):
+ *   verde  = opportunità / valore positivo / via libera
+ *   giallo = attenzione / zona incerta / da valutare
+ *   rosso  = rischio / sopra il limite / stop
+ *   blu    = informazione neutra / dato di contesto, nessun giudizio
+ *   viola  = brand / azione primaria di Astra
+ */
+:root {
+  /* Superfici — tre livelli di elevazione, non tre grigi a caso */
+  --color-bg: #0a0d13;
+  --color-surface: #12161f;
+  --color-surface-raised: #181d29;
+  --color-surface-overlay: #1e2433;
+  --color-border: #232838;
+  --color-border-strong: #2f3650;
+
+  --color-text: #eef0f5;
+  --color-text-muted: #8891a6;
+  --color-text-faint: #5b6478;
+
+  --color-brand: #7c6cf6;
+  --color-brand-soft: #7c6cf61a;
+  --color-brand-strong: #9686ff;
+
+  /* Verde — opportunità */
+  --color-rilancia: #34d399;
+  --color-rilancia-soft: #34d39920;
+  --color-rilancia-strong: #4ee3ad;
+
+  /* Giallo — attenzione */
+  --color-aspetta: #f5a623;
+  --color-aspetta-soft: #f5a62320;
+  --color-aspetta-strong: #ffb84d;
+
+  /* Rosso — rischio/stop */
+  --color-non-rilanciare: #f2495c;
+  --color-non-rilanciare-soft: #f2495c20;
+  --color-non-rilanciare-strong: #ff6b7c;
+
+  /* Blu — informazione neutra, mai un giudizio */
+  --color-info: #4d9eff;
+  --color-info-soft: #4d9eff1a;
+
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px -8px rgba(0, 0, 0, 0.5);
+  --shadow-overlay: 0 4px 12px rgba(0, 0, 0, 0.5), 0 16px 40px -12px rgba(0, 0, 0, 0.6);
+
+  --ease-snappy: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@theme inline {
+  --color-background: var(--color-bg);
+  --color-foreground: var(--color-text);
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif;
+  --font-mono: "SF Mono", "Cascadia Code", Consolas, monospace;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+
+.font-tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Card di livello 1 (contenitore primario di una schermata) */
+.card-primary {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  box-shadow: var(--shadow-card);
+}
+
+/* Card di livello 2 (sotto-sezione dentro un contenitore primario) — più piatta, meno peso visivo */
+.card-secondary {
+  background: var(--color-surface-raised);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+}
+
+/* Touch target minimo per iPad: 44px */
+.touch-target {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* --- Micro-animazioni: solo dove aiutano la comprensione, mai decorative --- */
+
+@keyframes flash-highlight {
+  0% { background-color: var(--flash-color, var(--color-brand-soft)); }
+  100% { background-color: transparent; }
+}
+.animate-flash {
+  animation: flash-highlight 700ms var(--ease-snappy);
+}
+
+@keyframes pop-in {
+  0% { opacity: 0; transform: scale(0.97) translateY(2px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+.animate-pop-in {
+  animation: pop-in 220ms var(--ease-snappy);
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.animate-fade-in {
+  animation: fade-in 180ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-flash, .animate-pop-in, .animate-fade-in {
+    animation: none;
+  }
+}
