@@ -23,6 +23,12 @@
 # misc
 .DS_Store
 *.pem
+__pycache__/
+*.py[cod]
+
+# local pipeline artifacts
+/scripts/input/_backup_old_listone/
+/scripts/output_new/
 
 # debug
 npm-debug.log*

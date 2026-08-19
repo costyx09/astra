@@ -399,3 +399,19 @@ Aprendo `/auction/live` con un giocatore selezionato: nome+ruolo in alto, bid gr
 ### Non fatto in questa fase (onestamente dichiarato)
 - Le schermate Market/Roster/Players (non esplicitamente elencate dall'utente) mantengono lo stile precedente — ancora coerente con la palette (nessuna variabile CSS rimossa), ma non hanno ricevuto lo stesso trattamento premium (card-primary/secondary, animazioni). Da considerare per un prossimo pass se serve coerenza totale.
 - Nessun test reale su dispositivo iPad — l'ottimizzazione touch è stata fatta a codice (dimensioni, target 44px) ma non verificata fisicamente.
+
+---
+
+## Aggiornamento 2026-08-19: Nuovo listone pre-asta + audit finale + fix inflazione
+
+**Dataset**: caricato il nuovo listone ufficiale (`Quotazioni_Fantacalcio_Stagione_2026_27.xlsx`, 507 giocatori vs 493 precedenti — 30 nuovi arrivi, 16 ceduti esclusi correttamente, 8 cambi squadra da calciomercato es. Frattesi Inter→Lazio). Vecchio listone salvato in `scripts/input/_backup_old_listone/`. Pipeline rieseguita, `scripts/output/players.json`, `public/players.json` sincronizzati a 507 giocatori. **`src/data/players.json` rimosso**: era un file morto, mai importato da nessun componente (il frontend legge solo `public/players.json` via fetch), rischio concreto di editarlo per errore pensando fosse quello letto dall'app.
+
+**Audit pre-asta eseguito** su tutti i motori (Decision Engine, AIE, Department Plan, Reparto Intelligence, Monte Carlo, Simulation Trigger, League Intelligence, suggestion-engine, Live UX). Trovato e corretto un problema 🔴 BLOCCANTE:
+
+**Fix critico — inflazione dinamica senza tetto (`auction-intelligence-engine.ts`)**: `inflazioneEffettiva[role]` era una media semplice dei rapporti prezzo-pagato/prezzo-consigliato, senza alcun limite, già a piena forza (peso 1.0) dopo sole 5 vendite osservate. Dimostrato con uno scenario realistico (5 difensori economici pagati 6-10x il consigliato, plausibile nelle fasi iniziali di un'asta vera): un difensore normale da 20 crediti otteneva un prezzo dinamico consigliato di **105 crediti e massimo 136** — assurdo per un'asta da 500 crediti, e capace di far dare al Decision Engine un RILANCIA su un prezzo del tutto fuori scala. **Corretto con due livelli di protezione**: (1) ogni singola vendita contribuisce alla media con un rapporto clampato a [0.3x, 3x] — nessun eccesso/sconto isolato può dominare il segnale; (2) il fattore finale di inflazione per ruolo resta comunque entro [0.6, 1.6]. Verificato: nello stesso scenario, il difensore da 20cr ora ottiene consigliato 37 / massimo 43 — alto (segnala correttamente un mercato surriscaldato) ma plausibile.
+
+**Fix collegato — Monte Carlo ignorava l'inflazione osservata (`simulator.ts`)**: `simulateRestOfAuction` prezzava gli acquisti futuri simulati solo dal prezzo statico ± rumore, mai dall'inflazione di ruolo già osservata nel `marketLog` reale. In un mercato già inflazionato, questo faceva sottostimare quanto budget gli avversari avrebbero speso nel resto dell'asta, rendendo COMPRA otticamente più favorevole del reale. Corretto: il prezzo base della simulazione ora è moltiplicato per `inflazioneEffettiva[role]` (calcolata una sola volta prima della simulazione, mai dentro il loop stocastico — stesso principio già in uso per l'aggressività osservata degli avversari).
+
+**Non toccato**: logica del Decision Engine (RILANCIA/ASPETTA/NON_RILANCIARE), guardrail di budget, Department Plan Engine, Reparto Intelligence, League Intelligence, suggestion-engine — tutti verificati coerenti in audit, nessuna modifica necessaria.
+
+**Verificato prima della consegna**: `npm run build` passa senza errori, test funzionale dedicato sul fix di inflazione conferma i numeri sopra (105→37, 136→43 nello stesso scenario).

@@ -4,7 +4,8 @@ import { deriveTeams } from "@/lib/state/derive-teams";
 import { roleObligationRatio, slotsFree, totalSlotsFree } from "./auction-context";
 import { computeDepartmentPlan } from "./department-plan-engine";
 import { getActiveDepartment } from "./reparto-intelligence-engine";
-import { computeOpponentProfiles } from "./auction-intelligence-engine";
+import { computeMarketSignals, computeOpponentProfiles } from "./auction-intelligence-engine";
+import { computePoolSizeByRole } from "./pool";
 import type { OpponentProfile } from "@/types/dynamic-pricing";
 import { clamp } from "@/lib/utils/math";
 
@@ -99,7 +100,8 @@ function simulateRestOfAuction(
   teams: TeamState[],
   availablePlayers: Player[],
   roleTargets: Record<Role, number>,
-  opponentProfiles: Map<string, OpponentProfile> = new Map()
+  opponentProfiles: Map<string, OpponentProfile> = new Map(),
+  inflazioneByRole: Record<Role, number> = { P: 1, D: 1, C: 1, A: 1 }
 ): { teams: TeamState[]; incomplete: boolean } {
   const teamsCopy: TeamState[] = teams.map((t) => ({
     ...t,
@@ -150,7 +152,16 @@ function simulateRestOfAuction(
       const player = rolePool[cursor];
       cursor++;
 
-      const basePrice = player.pricing.suggestedPrice;
+      // Fix audit pre-asta 2026-08-19: il prezzo simulato ora parte dal
+      // prezzo statico corretto per l'inflazione di ruolo GIÀ osservata
+      // nel marketLog reale fino a questo momento (calcolata una sola
+      // volta prima della simulazione, non ricalcolata nel loop — stesso
+      // principio già applicato all'aggressività osservata). Prima usava
+      // solo il prezzo statico: se il mercato reale era già inflazionato,
+      // il simulatore sottostimava quanto budget gli avversari avrebbero
+      // speso nel resto dell'asta, rendendo COMPRA otticamente più
+      // favorevole di quanto la realtà avrebbe permesso.
+      const basePrice = player.pricing.suggestedPrice * (inflazioneByRole[role] ?? 1);
       const price = Math.max(1, Math.round(basePrice * (1 + noise(0.25))));
       const affordable = Math.min(price, buyer.budget.creditiResidui);
 
@@ -182,7 +193,8 @@ function runScenario(
   roleTargets: Record<Role, number>,
   playersById: Map<string, Player>,
   iterations: number,
-  opponentProfiles: Map<string, OpponentProfile>
+  opponentProfiles: Map<string, OpponentProfile>,
+  inflazioneByRole: Record<Role, number>
 ): ScenarioResult {
   let sumPower = 0;
   let sumRank = 0;
@@ -190,7 +202,7 @@ function runScenario(
   let incompleteCount = 0;
 
   for (let i = 0; i < iterations; i++) {
-    const { teams: finalTeams, incomplete } = simulateRestOfAuction(teams, availablePlayers, roleTargets, opponentProfiles);
+    const { teams: finalTeams, incomplete } = simulateRestOfAuction(teams, availablePlayers, roleTargets, opponentProfiles, inflazioneByRole);
     const powers = finalTeams.map((t) => ({ id: t.id, power: rosterPower(t, playersById) }));
     powers.sort((a, b) => b.power - a.power);
 
@@ -227,6 +239,13 @@ export function compareBuyVsPass(
   // in simulateRestOfAuction sul perché sarebbe scorretto farlo lì).
   const opponentProfiles = new Map(computeOpponentProfiles(auctionState, players).map((p) => [p.teamId, p]));
 
+  // Inflazione di ruolo già osservata nel marketLog reale fino ad ora
+  // (stesso principio dell'aggressività: calcolata una volta sola prima
+  // della simulazione, mai ricalcolata dentro il loop stocastico).
+  const poolSizeByRole = computePoolSizeByRole(players);
+  const marketSignals = computeMarketSignals(auctionState, players, poolSizeByRole);
+  const inflazioneByRole = marketSignals.inflazioneEffettiva;
+
   // --- Scenario "Lo compro": il giocatore chiamato è già mio ---
   const teamsBuy = deriveTeams(
     auctionState.teams.map((t) => ({ id: t.id, name: t.name })),
@@ -242,7 +261,7 @@ export function compareBuyVsPass(
       },
     ]
   );
-  const scenarioCompro = runScenario(teamsBuy, availablePool, auctionState.roleTargets, playersById, iterations, opponentProfiles);
+  const scenarioCompro = runScenario(teamsBuy, availablePool, auctionState.roleTargets, playersById, iterations, opponentProfiles, inflazioneByRole);
 
   // --- Scenario "Lo lascio": il giocatore chiamato viene rimosso dal pool
   // (se lo aggiudica probabilisticamente qualcun altro nella simulazione) ---
@@ -252,7 +271,8 @@ export function compareBuyVsPass(
     auctionState.roleTargets,
     playersById,
     iterations,
-    opponentProfiles
+    opponentProfiles,
+    inflazioneByRole
   );
 
   const deltaPosizione = scenarioLascio.posizioneMediaSu8 - scenarioCompro.posizioneMediaSu8;

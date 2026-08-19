@@ -1,33 +1,31 @@
 nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
-"Svilar","Roma",P,exact_team,,,41,32
+"Svilar","Roma",P,exact_team,,,40,32
 "Martinez Jo.","Inter",P,exact_team,,,1,32
-"Carnesecchi","Atalanta",P,exact_team,,,52,26
-"Butez","Como",P,exact_team,,,34,28
-"Maignan","Milan",P,exact_team,,,36,25
+"Carnesecchi","Atalanta",P,exact_team,,,50,26
+"Butez","Como",P,exact_team,,,33,28
+"Vicario","Juventus",P,none,,,1,28
+"Maignan","Milan",P,exact_team,,,35,25
 "De Gea","Fiorentina",P,exact_team,,,6,22
-"Meret","Napoli",P,exact_team,,,2,22
-"Skorupski","Bologna",P,exact_team,,,6,18
+"Meret","Napoli",P,exact_team,,,1,22
+"Skorupski","Bologna",P,exact_team,,,5,18
 "Caprile","Cagliari",P,exact_team,,,3,14
-"Di Gregorio","Juventus",P,exact_team,,,18,20
+"Di Gregorio","Juventus",P,exact_team,,,17,5
 "Mandas","Lazio",P,exact_team,,,1,15
-"Okoye","Udinese",P,exact_team,,,9,14
+"Okoye","Udinese",P,exact_team,,,8,14
 "Bijlow","Genoa",P,exact_team,,,1,9
-"Falcone","Lecce",P,exact_team,,,23,12
+"Falcone","Lecce",P,exact_team,,,22,12
 "Daffara","Parma",P,none,,,1,2
-"Suzuki","Parma",P,exact_team,,,1,10
 "Muric","Sassuolo",P,exact_team,,,1,8
-"Perin","Juventus",P,exact_team,,,1,5
+"Perin","Juventus",P,exact_team,,,1,2
 "Stankovic F.","Venezia",P,none,,,1,7
 "Thiam","Monza",P,none,,,1,6
-"Milinkovic-Savic V.","Napoli",P,exact_team,,,29,5
+"Milinkovic-Savic V.","Napoli",P,exact_team,,,28,5
 "Palmisani","Frosinone",P,none,,,1,4
 "Desplanches","Frosinone",P,none,,,1,4
-"Provedel","Inter",P,exact_transfer,,,18,2
-"Rossi F.","Atalanta",P,exact_team,,,1,
+"Provedel","Inter",P,exact_transfer,,,17,2
 "Sportiello","Atalanta",P,exact_team,,,1,
 "Happonen","Bologna",P,none,,,1,
 "Pessina Mas.","Bologna",P,exact_team,,,1,
-"Ciocci","Cagliari",P,exact_team,,,1,
 "Sherri","Cagliari",P,exact_team,,,1,
 "Tornqvist","Como",P,exact_team,,,1,
 "Vigorito","Como",P,exact_team,,,1,
@@ -38,16 +36,14 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "Stolz","Genoa",P,none,,,1,
 "Di Gennaro","Inter",P,exact_team,,,1,
 "Pinsoglio","Juventus",P,exact_team,,,1,
-"Motta","Lazio",P,exact_team,,,2,
+"Motta","Lazio",P,exact_team,,,1,
 "Renzetti","Lazio",P,none,,,1,
-"Fruchtl","Lecce",P,exact_team,,,1,
-"Samooja","Lecce",P,exact_team,,,1,
 "Terracciano","Milan",P,exact_team,,,1,
 "Torriani","Milan",P,exact_team,,,1,
 "Pizzignacco","Monza",P,none,,,1,
 "Strajnar","Monza",P,none,,,1,
 "Contini","Napoli",P,exact_team,,,1,
-"Corvi","Parma",P,exact_team,,,4,
+"Corvi","Parma",P,exact_team,,,3,
 "De Marzi","Roma",P,none,,,1,
 "Gollini","Roma",P,exact_team,,,1,
 "Russo A.","Sassuolo",P,exact_team,,,1,
@@ -59,57 +55,66 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "Piana","Udinese",P,none,,,1,
 "Grandi","Venezia",P,none,,,1,
 "Pozzi","Venezia",P,none,,,1,
-"Dimarco","Inter",D,exact_team,,,146,132
-"Wesley","Roma",D,exact_team,,,25,45
-"Akanji","Inter",D,exact_team,,,21,28
+"Vismara","Atalanta",P,none,,,1,
+"Satalino","Sassuolo",P,exact_team,,,1,
+"Penev","Lecce",P,none,,,1,
+"Pisseri","Frosinone",P,none,,,1,
+"Radunovic","Cagliari",P,exact_team,,,1,
+"Montipò","Venezia",P,exact_transfer,,,3,
+"Dimarco","Inter",D,exact_team,,,147,132
+"Molina N.","Roma",D,none,,,1,44
+"Wesley","Roma",D,exact_team,,,26,42
+"Akanji","Inter",D,exact_team,,,22,28
 "Bremer","Juventus",D,exact_team,,,31,25
 "Mancini","Roma",D,exact_team,,,40,24
 "Bastoni","Inter",D,exact_team,,,12,22
-"Pavlovic","Milan",D,exact_team,,,42,24
+"Pavlovic","Milan",D,exact_team,,,43,24
 "Rrahmani","Napoli",D,exact_team,,,11,24
 "Kalulu","Juventus",D,exact_team,,,31,23
 "N'Dicka","Roma",D,exact_team,,,20,22
 "Solet","Udinese",D,exact_team,2,,36,23
 "Stones","Inter",D,none,,,1,19
 "Gila","Milan",D,exact_transfer,,,1,16
-"Di Lorenzo","Napoli",D,exact_team,,,9,20
+"Di Lorenzo","Napoli",D,exact_team,,,10,20
+"Spence","Inter",D,none,,,1,20
 "Ostigard","Genoa",D,exact_team,3,,27,20
 "Bisseck","Inter",D,exact_team,,,19,16
-"Scalvini","Atalanta",D,exact_team,,,12,14
+"Scalvini","Atalanta",D,exact_team,,,13,14
 "Ramon","Como",D,exact_team,,,9,16
 "Dodò","Fiorentina",D,exact_team,,,11,15
 "Hermoso","Roma",D,exact_team,,,16,13
 "Vasquez","Genoa",D,exact_team,,,14,16
 "Cambiaso","Juventus",D,exact_team,,,5,14
+"Chalobah T.","Como",D,none,,,1,13
 "Hien","Atalanta",D,exact_team,,,2,8
 "Zappacosta","Atalanta",D,exact_team,,,18,12
-"Lucumì","Bologna",D,exact_team,,,2,9
+"Lucumì","Juventus",D,exact_transfer,,,2,9
 "Miranda J.","Bologna",D,exact_team,,,5,12
 "Mina","Cagliari",D,exact_team,2,,9,10
 "Dragusin","Fiorentina",D,none,,,1,14
 "Jimenez A.","Fiorentina",D,exact_transfer,,,1,12
 "Norton-Cuffy","Genoa",D,exact_team,,,5,11
-"Celik","Juventus",D,exact_transfer,,,10,10
+"Celik","Juventus",D,exact_transfer,,,11,6
 "Bartesaghi","Milan",D,exact_team,,,6,12
-"Spinazzola","Napoli",D,exact_team,,,23,12
+"Spinazzola","Napoli",D,exact_team,,,24,12
 "Delprato","Parma",D,exact_team,,,10,10
 "Valeri","Parma",D,exact_team,,,10,12
 "Koulierakis","Roma",D,none,,,1,10
 "Vojvoda","Udinese",D,exact_transfer,,,7,10
-"Djimsiti","Atalanta",D,exact_team,,,1,8
+"Couto","Como",D,none,,,1,14
 "Obert","Cagliari",D,exact_team,,,2,7
 "Kaiki","Como",D,none,,,1,12
 "Carlos Augusto","Inter",D,exact_team,,,5,14
 "Doekhi","Lazio",D,none,,,1,11
 "Romagnoli","Lazio",D,exact_team,,,2,12
-"Tiago Gabriel","Lecce",D,exact_team,,,7,8
+"Tiago Gabriel","Lecce",D,exact_team,,,8,8
 "Gabbia","Milan",D,exact_team,,,1,12
-"Tomori","Milan",D,exact_team,,,1,10
-"Buongiorno","Napoli",D,exact_team,,,1,9
-"Idzes","Sassuolo",D,exact_team,,,4,
+"Tomori","Milan",D,exact_team,,,1,6
+"Buongiorno","Napoli",D,exact_team,,,1,8
+"Idzes","Sassuolo",D,exact_team,,,4,10
 "Coco","Torino",D,exact_team,,,4,9
 "Ismajli","Torino",D,exact_team,,,1,9
-"Kristensen T.","Udinese",D,exact_team,,,12,8
+"Kristensen T.","Atalanta",D,exact_transfer,,,12,10
 "Ahanor","Atalanta",D,exact_team,,,1,8
 "Bellanova","Atalanta",D,exact_team,,,1,8
 "Bernasconi","Atalanta",D,exact_team,,,4,8
@@ -125,22 +130,23 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "Marusic","Lazio",D,exact_team,,,2,10
 "Gallo","Lecce",D,exact_team,,,5,6
 "Mangas","Monza",D,none,,,1,8
-"Beukema","Napoli",D,exact_team,,,3,8
+"Beukema","Napoli",D,exact_team,,,3,6
 "Circati","Parma",D,exact_team,,,3,9
 "Comuzzo","Torino",D,exact_transfer,,,1,6
 "Kamara H.","Udinese",D,exact_team,,,1,6
 "Bella-Kotchap","Venezia",D,exact_transfer,,,1,6
+"Obrador","Sassuolo",D,exact_transfer,,,4,8
 "Kolasinac","Atalanta",D,exact_team,,,1,6
 "Vitik","Bologna",D,exact_team,,,1,6
 "Holm","Bologna",D,exact_transfer,,,4,6
 "Kofler","Cagliari",D,none,,,1,6
 "Zè Pedro","Cagliari",D,exact_team,,,1,6
-"Kempf","Como",D,exact_team,,,24,6
+"Kempf","Como",D,exact_team,,,25,6
 "Parisi","Fiorentina",D,exact_team,,,3,6
 "Bracaglia","Frosinone",D,none,,,1,6
 "Oyono A.","Frosinone",D,none,,,1,6
-"Martin","Genoa",D,exact_team,,,4,8
-"Kelly L.","Juventus",D,exact_team,,,9,6
+"Martin","Genoa",D,exact_team,,,5,8
+"Kelly L.","Juventus",D,exact_team,,,10,5
 "Pedraza","Lazio",D,none,,,1,8
 "Gaspar K.","Lecce",D,exact_team,,,1,6
 "Veiga D.","Lecce",D,exact_team,,,1,6
@@ -162,7 +168,7 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "Valenti","Parma",D,exact_team,,,1,5
 "Ghilardi","Roma",D,exact_team,,,1,5
 "Walukiewicz","Sassuolo",D,exact_team,,,1,5
-"Doig","Sassuolo",D,exact_team,,,1,6
+"Doig","Sassuolo",D,exact_team,,,1,5
 "Comert","Torino",D,none,,,1,5
 "Kabasele","Udinese",D,exact_team,,,8,4
 "Bertola","Udinese",D,exact_team,,,1,5
@@ -170,6 +176,8 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "Arizala","Udinese",D,exact_team,,,1,4
 "Halhal","Venezia",D,none,,,1,5
 "Correia T.","Venezia",D,none,,,1,6
+"Terzic","Frosinone",D,none,,,1,6
+"Favasuli","Napoli",D,none,,,1,6
 "Kossounou","Atalanta",D,exact_team,,,1,4
 "Casale","Bologna",D,exact_team,,,1,3
 "Rodriguez Ju.","Cagliari",D,exact_team,,,1,5
@@ -181,13 +189,11 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "Provstgaard","Lazio",D,exact_team,,,1,5
 "Floriani Mussolini","Lazio",D,exact_transfer,,,1,6
 "De Winter","Milan",D,exact_team,,,1,6
-"Athekame","Milan",D,exact_team,,,4,4
 "Estupinan","Milan",D,exact_team,,,1,4
 "Kouadio","Monza",D,exact_transfer,,,1,4
 "Carboni A.","Monza",D,none,,,1,4
 "Troilo","Parma",D,exact_team,,,1,4
 "Britschgi","Parma",D,exact_team,,,1,5
-"Angelino","Roma",D,exact_team,,,1,6
 "Candè","Sassuolo",D,exact_team,,,1,6
 "Schingtienne","Venezia",D,none,,,1,4
 "Sverko","Venezia",D,none,,,1,4
@@ -208,20 +214,17 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "Ebosse","Udinese",D,exact_transfer,,,1,2
 "Franjic","Venezia",D,none,,,1,2
 "Sagrado","Venezia",D,none,,,1,2
+"Aurelio","Cagliari",D,none,,,1,2
 "De Silvestri","Bologna",D,exact_team,,,1,2
-"Raterink","Cagliari",D,exact_team,,,1,
 "Goldaniga","Como",D,exact_team,,,1,
-"Cuenca A.","Como",D,none,,,1,4
 "Amey","Frosinone",D,none,,,1,
 "Gelli J.","Frosinone",D,none,,,1,
 "Oyono J.","Frosinone",D,none,,,1,2
 "Corrado","Frosinone",D,none,,,1,2
-"Vogliacco","Genoa",D,exact_team,,,1,1
 "Matturro","Genoa",D,none,,,1,1
 "Rugani","Juventus",D,exact_transfer,,,1,2
 "Cabal","Juventus",D,exact_team,,,1,2
 "Patric","Lazio",D,exact_team,,,1,2
-"Perez M.","Lecce",D,exact_team,,,1,
 "Ndaba","Lecce",D,exact_team,,,1,2
 "Antov","Monza",D,none,,,1,1
 "Bakoune","Monza",D,none,,,1,2
@@ -239,18 +242,19 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "McTominay","Napoli",C,exact_team,,0.32,65,120
 "Calhanoglu","Inter",C,exact_team,1,0.49,51,115
 "Orsolini","Bologna",C,exact_team,1,0.43,48,100
-"Pulisic","Milan",C,exact_team,3,0.45,35,90
+"Pulisic","Milan",C,exact_team,3,0.45,34,90
 "Rabiot","Milan",C,exact_team,,0.21,36,64
-"Baturina","Como",C,exact_team,,0.34,36,51
+"Baturina","Como",C,exact_team,,0.34,35,51
+"Mora","Roma",C,none,,,1,50
 "Da Cunha","Como",C,exact_team,1,0.2,64,45
-"Zaniolo","Udinese",C,exact_team,3,0.2,29,45
+"Zaniolo","Udinese",C,exact_team,3,0.2,29,50
 "Atta","Fiorentina",C,exact_transfer,,0.18,36,44
-"Barella","Inter",C,exact_team,,0.11,31,41
+"Barella","Inter",C,exact_team,,0.11,31,40
 "McKennie","Juventus",C,exact_team,,0.16,31,34
 "Zaccagni","Lazio",C,exact_team,1,0.13,1,46
-"De Bruyne","Napoli",C,exact_team,2,,21,50
-"Vlasic","Torino",C,exact_team,1,0.24,48,40
-"Gudmundsson A.","Fiorentina",C,exact_team,1,0.2,10,30
+"De Bruyne","Napoli",C,exact_team,2,,21,49
+"Vlasic","Torino",C,exact_team,1,0.24,47,40
+"Gudmundsson A.","Fiorentina",C,exact_team,1,0.2,9,30
 "Taylor K.","Lazio",C,exact_team,,,2,32
 "Ederson D.S.","Atalanta",C,exact_team,,0.08,10,22
 "Samardzic","Atalanta",C,exact_team,2,0.18,1,21
@@ -258,9 +262,10 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "Alajbegovic","Juventus",C,none,,,1,28
 "Conceicao","Juventus",C,exact_team,,0.13,21,30
 "Modric","Milan",C,exact_team,,0.06,28,25
-"Rowe","Bologna",C,exact_team,,0.17,10,18
+"Mastantuono","Fiorentina",C,none,,,1,29
+"Rowe","Bologna",C,exact_team,,0.17,9,18
 "Baldanzi","Genoa",C,exact_team,,,1,15
-"Zambo Anguissa","Napoli",C,exact_team,,,8,28
+"Zambo Anguissa","Napoli",C,exact_team,,,8,27
 "Perrone","Como",C,exact_team,,0.1,24,19
 "Zielinski","Inter",C,exact_team,2,0.26,40,20
 "Thuram K.","Juventus",C,exact_team,,0.61,9,20
@@ -269,12 +274,13 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "Konè M.","Roma",C,exact_team,,,10,21
 "Thorstvedt","Sassuolo",C,exact_team,,0.15,19,20
 "Casadei","Torino",C,exact_team,,0.27,16,18
-"Ekkelenkamp","Udinese",C,exact_team,,0.2,17,20
-"Pasalic","Atalanta",C,exact_team,,0.14,6,16
+"Ekkelenkamp","Udinese",C,exact_team,,0.2,16,20
+"Pellegrini Lo.","Roma",C,exact_team,,,9,14
+"Pasalic","Atalanta",C,exact_team,,0.14,5,16
 "Bernardeschi","Bologna",C,exact_team,2,0.3,12,10
-"Mandragora","Fiorentina",C,exact_team,3,0.26,23,14
-"Cancellieri","Lazio",C,exact_team,,0.21,2,14
-"Isaksen","Lazio",C,exact_team,,0.28,12,12
+"Mandragora","Fiorentina",C,exact_team,3,0.26,22,14
+"Cancellieri","Lazio",C,exact_team,,0.21,1,14
+"Isaksen","Lazio",C,exact_team,,0.28,11,12
 "Konè I.","Sassuolo",C,exact_team,,0.2,27,10
 "Odgaard","Bologna",C,exact_team,,0.33,7,11
 "Cambiaghi","Bologna",C,exact_team,,0.18,4,12
@@ -286,18 +292,20 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "Colpani","Monza",C,none,,,1,12
 "Vergara","Napoli",C,exact_team,,,1,17
 "Cristante","Roma",C,exact_team,,0.06,6,14
-"Gaetano","Atalanta",C,exact_transfer,,,8,12
+"Schmid","Frosinone",C,none,,,1,15
+"Gaetano","Atalanta",C,exact_transfer,,,7,12
 "Ferguson","Bologna",C,exact_team,,0.06,1,9
 "Fazzini","Cagliari",C,exact_transfer,,,1,10
 "Calò","Frosinone",C,none,1,,1,12
 "Frendrup","Genoa",C,exact_team,,0.03,1,10
-"Frattesi","Inter",C,exact_team,,,1,6
-"Pessina","Monza",C,fuzzy_transfer,1,,1,10
-"Lobotka","Napoli",C,exact_team,,0.04,2,10
+"Frattesi","Lazio",C,exact_transfer,,,1,28
+"Pessina","Monza",C,fuzzy_transfer,1,,1,8
+"Lobotka","Napoli",C,exact_team,,0.04,1,10
 "Bernabè","Parma",C,exact_team,2,0.11,13,18
 "Volpato","Sassuolo",C,exact_team,,0.17,3,12
 "Oristanio","Torino",C,exact_transfer,,0.11,1,14
 "Unai Gomez","Udinese",C,none,,,1,12
+"Sow","Genoa",C,none,,,1,7
 "Zalewski","Atalanta",C,exact_team,,0.09,9,10
 "Pobega","Bologna",C,exact_team,,0.19,1,7
 "Adopo","Cagliari",C,exact_team,,0.03,1,6
@@ -323,24 +331,24 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "Zerbin","Frosinone",C,exact_transfer,,,1,6
 "Meichtry","Genoa",C,none,,,1,7
 "Traorè Hj.","Genoa",C,none,,,1,6
-"Mkhitaryan","Inter",C,exact_team,,0.23,11,10
+"Mkhitaryan","Inter",C,exact_team,,0.23,10,10
 "Koopmeiners","Juventus",C,exact_team,,,1,7
 "Dele-Bashiru","Lazio",C,exact_team,,0.08,1,6
 "Berisha M.","Lecce",C,exact_team,,,3,8
 "Gandelman","Lecce",C,exact_team,,0.18,1,7
 "Fofana Y.","Milan",C,exact_team,,0.08,1,12
 "Keita M.","Parma",C,exact_team,,0.03,1,8
-"Ondrejka","Parma",C,exact_team,3,,1,9
 "Pisilli","Roma",C,exact_team,,0.14,4,8
 "Matic","Sassuolo",C,exact_team,,0.03,1,8
-"Adzic","Sassuolo",C,exact_transfer,,,1,7
-"Bakola","Sassuolo",C,exact_team,,,1,8
+"Adzic","Sassuolo",C,exact_transfer,,,1,8
+"Bakola","Sassuolo",C,exact_team,,,1,7
 "Cacciamani","Torino",C,none,,,1,9
 "Gineitis","Torino",C,exact_team,,,1,6
 "Piotrowski","Udinese",C,exact_team,,0.05,1,8
 "Busio","Venezia",C,none,,,1,7
 "Sohm","Venezia",C,exact_transfer,,,1,7
 "Perez K.","Venezia",C,none,,,1,7
+"Grillitsch","Frosinone",C,none,,,1,7
 "De Roon","Atalanta",C,exact_team,,0.03,1,6
 "Moro N.","Bologna",C,exact_team,,0.1,1,5
 "Prati","Cagliari",C,exact_transfer,,0.05,1,4
@@ -352,7 +360,7 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "Douglas Luiz","Juventus",C,exact_team,,,1,6
 "Cataldi","Lazio",C,exact_team,2,0.14,6,6
 "Ngom","Lecce",C,exact_team,,,1,6
-"Ricci S.","Milan",C,exact_team,,0.07,2,6
+"Ricci S.","Milan",C,exact_team,,0.07,1,6
 "Jashari","Milan",C,exact_team,,,1,6
 "Loftus-Cheek","Milan",C,exact_team,,0.24,4,6
 "Folorunsho","Napoli",C,exact_transfer,,0.09,1,5
@@ -362,12 +370,12 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "Ilkhan","Torino",C,exact_team,,0.09,1,5
 "Njie","Torino",C,exact_team,,,1,6
 "Sulemana I.","Atalanta",C,fuzzy_team,,0.1,1,4
-"Dominguez B.","Bologna",C,exact_team,,,1,4
+"Dominguez B.","Sassuolo",C,exact_transfer,,,1,6
 "Deiola","Cagliari",C,exact_team,,,1,4
 "Brescianini","Fiorentina",C,exact_team,,0.17,1,4
 "Gelli F.","Frosinone",C,none,,,1,4
 "Fini","Frosinone",C,exact_transfer,,,1,4
-"Messias","Genoa",C,exact_team,,0.4,6,4
+"Messias","Genoa",C,exact_team,,0.4,5,4
 "Stankovic A.","Inter",C,none,,,1,5
 "Miretti","Juventus",C,exact_team,,0.15,1,6
 "Colombo L.","Monza",C,fuzzy_transfer,,0.27,15,4
@@ -377,10 +385,11 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "Aboukhlal","Torino",C,exact_team,,,1,2
 "Miller L.","Udinese",C,exact_team,,,1,6
 "Helgason","Venezia",C,exact_transfer,,,1,4
+"Cissè A.","Milan",C,exact_transfer,,,1,4
 "El Azzouzi O.","Bologna",C,fuzzy_team,,0.09,1,2
 "Fadera","Como",C,exact_transfer,,0.18,1,2
 "Hasa","Frosinone",C,none,,,1,2
-"Masini","Genoa",C,exact_team,,,1,2
+"Masini","Frosinone",C,exact_transfer,,,1,2
 "Venturino","Genoa",C,exact_transfer,,,1,3
 "Maleh","Lecce",C,exact_transfer,,0.06,1,2
 "Musah","Milan",C,exact_transfer,,0.14,1,3
@@ -405,68 +414,70 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "Anjorin","Torino",C,exact_team,,,1,2
 "Camara A.","Udinese",C,none,,,1,2
 "Zarraga","Udinese",C,exact_team,,,1,2
-"Bjarkason","Venezia",C,none,,,1,2
 "Dagasso","Venezia",C,none,,,1,
-"Martinez L.","Inter",A,exact_team,3,0.7,149,185
-"Malen","Roma",A,exact_team,3,,103,182
+"Forson O.","Monza",C,none,,,1,
+"Martinez L.","Inter",A,exact_team,3,0.7,150,185
+"Malen","Roma",A,exact_team,3,,104,182
 "Thuram","Inter",A,exact_team,,0.61,108,140
 "Hojlund","Napoli",A,exact_team,3,,89,136
-"Ramos G.","Milan",A,none,2,,1,120
+"Ramos G.","Milan",A,none,2,,1,116
 "Kolo Muani","Juventus",A,none,2,,1,112
-"Kean","Fiorentina",A,exact_team,2,0.35,24,106
-"Yildiz","Juventus",A,exact_team,1,0.32,103,100
-"Douvikas","Como",A,exact_team,3,0.55,97,78
-"Scamacca","Atalanta",A,exact_team,1,0.68,58,64
-"Davis K.","Udinese",A,exact_team,1,0.43,73,60
-"Krstovic","Atalanta",A,exact_team,3,0.5,61,50
-"Leao","Milan",A,exact_team,,0.44,25,60
-"Berardi","Sassuolo",A,exact_team,1,0.37,46,58
+"Kean","Fiorentina",A,exact_team,2,0.35,24,100
+"Yildiz","Juventus",A,exact_team,1,0.32,103,96
+"Douvikas","Como",A,exact_team,3,0.55,98,78
+"Scamacca","Atalanta",A,exact_team,1,0.68,59,66
+"Davis K.","Udinese",A,exact_team,1,0.43,73,61
+"Krstovic","Atalanta",A,exact_team,3,0.5,61,48
+"Leao","Milan",A,exact_team,,0.44,26,60
+"Berardi","Sassuolo",A,exact_team,1,0.37,47,58
 "De Ketelaere","Atalanta",A,exact_team,,,15,53
-"Dovbyk","Bologna",A,exact_transfer,,,4,42
+"Dovbyk","Bologna",A,exact_transfer,,,4,36
 "Esposito F.P.","Inter",A,exact_team,,0.4,47,46
-"Pellegrino M.","Parma",A,exact_team,1,0.27,32,40
+"Pellegrino M.","Fiorentina",A,exact_transfer,,0.27,21,30
 "Laurientè","Sassuolo",A,exact_team,3,0.24,50,44
 "Simeone","Torino",A,exact_team,3,0.44,67,41
-"Santos A.","Napoli",A,exact_team,,,14,30
+"Santos A.","Napoli",A,exact_team,,,14,28
 "Dybala","Roma",A,exact_team,2,0.13,14,34
-"Castro S.","Roma",A,exact_transfer,,0.27,27,42
+"Castro S.","Roma",A,exact_transfer,,0.27,27,40
 "Raspadori","Atalanta",A,exact_team,,,5,31
-"Esposito Se.","Cagliari",A,exact_team,1,0.23,53,25
-"Nkunku","Milan",A,exact_team,1,0.47,31,26
-"Pinamonti","Sassuolo",A,exact_team,2,0.31,32,29
-"Soulè","Roma",A,exact_team,,0.25,34,28
+"Esposito Se.","Cagliari",A,exact_team,1,0.23,54,20
+"Nkunku","Milan",A,exact_team,1,0.47,32,12
+"Pinamonti","Sassuolo",A,exact_team,2,0.31,32,28
+"Kevin Carlos","Cagliari",A,none,,,1,24
+"Soulè","Roma",A,exact_team,,0.25,34,26
 "Adams A.","Venezia",A,none,1,0.28,1,26
 "Diao","Como",A,exact_team,,,2,25
 "Colombo","Genoa",A,exact_team,1,0.27,23,32
+"Tourè E.","Parma",A,exact_transfer,,0.04,1,22
 "Dia","Lazio",A,exact_team,3,0.07,1,16
 "Ratkov","Lazio",A,exact_team,,,1,16
-"Lukaku","Napoli",A,exact_team,1,,1,22
 "Bowie","Sassuolo",A,exact_transfer,,,5,20
+"Romero D.","Parma",A,none,,,1,19
 "Ghedjemis","Frosinone",A,none,,,1,15
 "David","Juventus",A,exact_team,,0.3,5,20
 "Geubbels","Lecce",A,none,1,,1,12
 "Cutrone","Monza",A,exact_transfer,2,,1,16
 "Adams C.","Torino",A,exact_team,,0.28,28,16
-"Dallinga","Bologna",A,exact_team,,0.22,1,12
-"Piccoli","Fiorentina",A,exact_team,,0.22,2,12
+"Piccoli","Bologna",A,exact_transfer,,0.22,2,16
 "Vitinha O.","Genoa",A,exact_team,2,0.2,14,10
 "Yeboah J.","Venezia",A,none,,,1,14
 "Rrahmani Al.","Venezia",A,fuzzy_transfer,2,0.1,8,10
 "Raimondo","Frosinone",A,none,2,,1,12
-"Bonny","Inter",A,exact_team,,0.4,23,10
+"Bonny","Inter",A,exact_team,,0.4,24,10
 "Stulic","Lecce",A,exact_team,2,0.21,1,9
 "Zapata D.","Torino",A,exact_team,2,0.25,3,9
 "Sulemana K.","Atalanta",A,exact_team,,0.18,1,8
-"Mutandwa","Cagliari",A,none,3,,1,10
+"Mutandwa","Cagliari",A,none,3,,1,8
 "Boga","Juventus",A,exact_team,,,11,12
 "Noslin","Lazio",A,exact_team,,0.32,8,8
 "Gimenez","Milan",A,exact_team,,,1,7
 "Neres","Napoli",A,exact_team,,,9,11
-"Maldini","Atalanta",A,exact_transfer,,0.19,2,7
-"Camarda","Milan",A,exact_transfer,,0.13,1,9
+"Maldini","Cagliari",A,exact_transfer,,0.19,2,11
+"Camarda","Milan",A,exact_transfer,,0.13,1,10
 "Mota","Monza",A,none,,,1,9
 "Frigan","Parma",A,exact_team,,,1,6
 "Adorante","Venezia",A,none,3,,1,7
+"Milik","Juventus",A,exact_team,,,1,6
 "Borrelli","Cagliari",A,exact_team,,0.35,10,4
 "Mendy P.","Cagliari",A,exact_team,,,1,4
 "Morata","Como",A,exact_team,,,1,5
@@ -475,6 +486,7 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "Giovane","Napoli",A,exact_team,,0.14,10,5
 "Kulenovic","Torino",A,exact_team,,,1,4
 "Gueye","Udinese",A,exact_team,,0.22,1,4
+"Robinson J.","Monza",A,none,,,1,5
 "Kuhn","Como",A,exact_team,,0.14,1,2
 "Ekhator","Juventus",A,exact_transfer,,0.29,3,5
 "N'Dri","Lecce",A,exact_team,,0.34,1,4
@@ -492,3 +504,5 @@ nome,squadra,ruolo,matchType,rigoristaRank,gol90,prezzoConsigliato,fvmStimato500
 "Bayo V.","Udinese",A,exact_team,,,1,2
 "Lisman","Venezia",A,none,,,1,
 "Lauberbach","Venezia",A,none,,,1,
+"Lontani","Parma",A,none,,,1,2
+"De Martis","Parma",A,none,,0.03,1,

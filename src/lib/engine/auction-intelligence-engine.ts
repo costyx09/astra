@@ -15,6 +15,33 @@ import { CREDITO_PER_SLOT_INIZIALE, minReserve, slotsFree, totalSlotsFree } from
 
 const ROLES: Role[] = ["P", "D", "C", "A"];
 
+/**
+ * Guardrail anti-esplosione prezzi (fix audit pre-asta 2026-08-19).
+ *
+ * Problema riscontrato: `inflazioneEffettiva` era una media semplice dei
+ * rapporti prezzo-pagato/prezzo-consigliato, senza alcun limite, e già a
+ * 5 vendite raggiungeva peso pieno. Una manciata di vendite "pazze" su
+ * giocatori economici (comune nelle prime fasi reali di un'asta, specie
+ * per D e C di fascia bassa: un 2 crediti pagato 8 fa un rapporto 4x)
+ * poteva propagarsi come moltiplicatore diretto sul prezzo dinamico di
+ * TUTTI i giocatori rimanenti di quel ruolo, producendo prezzi assurdi
+ * (dimostrato in audit: difensore da 20cr -> consigliato dinamico 105,
+ * massimo 136).
+ *
+ * Due livelli di protezione, entrambi necessari:
+ * 1) SINGLE_SALE_RATIO_CLAMP: nessuna singola vendita può contribuire
+ *    alla media con un rapporto oltre 3x o sotto 0.3x — un singolo
+ *    eccesso/sconto isolato non deve dominare il segnale di inflazione.
+ * 2) INFLATION_CAP: il fattore finale di inflazione per ruolo resta
+ *    comunque entro [0.6, 1.6] — un'inflazione di ruolo sostenuta oltre
+ *    il 60% è già un segnale fortissimo, oltre non aggiunge realismo,
+ *    solo rischio di prezzi fuori scala quando composto con scarsità e
+ *    pressione di budget (che possono aggiungere fino a un ulteriore
+ *    +67% combinato) e col margine massimo (+40%) per il prezzo massimo.
+ */
+const SINGLE_SALE_RATIO_CLAMP: [number, number] = [0.3, 3];
+const INFLATION_CAP: [number, number] = [0.6, 1.6];
+
 /** --- Sezione 3: segnali di mercato --- */
 
 export function computeMarketSignals(
@@ -37,11 +64,14 @@ export function computeMarketSignals(
       const ratios = soldEntries.map((e) => {
         const p = playerById.get(e.playerId);
         const base = p?.pricing.suggestedPrice ?? e.pricePaid;
-        return base > 0 ? e.pricePaid / base : 1;
+        const raw = base > 0 ? e.pricePaid / base : 1;
+        // Nessuna singola vendita può dominare la media (vedi guardrail sopra).
+        return clamp(raw, SINGLE_SALE_RATIO_CLAMP[0], SINGLE_SALE_RATIO_CLAMP[1]);
       });
       const inflazioneRuolo = ratios.reduce((a, b) => a + b, 0) / ratios.length;
       const pesoCampione = clamp(soldEntries.length / 5, 0, 1);
-      inflazioneEffettiva[role] = 1 + (inflazioneRuolo - 1) * pesoCampione;
+      const inflazioneSmorzata = 1 + (inflazioneRuolo - 1) * pesoCampione;
+      inflazioneEffettiva[role] = clamp(inflazioneSmorzata, INFLATION_CAP[0], INFLATION_CAP[1]);
     }
 
     scarsita[role] = total > 0 ? 1 - soldEntries.length / total : 0;
